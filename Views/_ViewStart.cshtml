@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var user = HttpContextAccessor.HttpContext?.User;
+
+    if (user?.Identity?.IsAuthenticated ?? false)
+    {
+        if (user.IsInRole("Admin"))
+        {
+            Layout = "_LayoutAdmin";
+        }
+        else if (user.IsInRole("User"))
+        {
+            Layout = "user_Layout";
+        }
+        else
+        {
+            Layout = "_Layout";
+        }
+    }
+    else
+    {
+        Layout = "_Layout"; // guest user
+    }
+}

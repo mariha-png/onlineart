@@ -1,0 +1,34 @@
+﻿
+
+<h2>User Details</h2>
+
+<div class="card p-3">
+    <img src="@Model.ProfileImage" alt="Profile" width="150" height="150" class="mb-3" />
+    <dl class="row">
+        <dt class="col-sm-3">Name</dt>
+        <dd class="col-sm-9">@Model.Name</dd>
+
+        <dt class="col-sm-6">StreetAddress</dt>
+        <dd class="col-sm-6">@Model.StreetAddress</dd>
+
+        <dt class="col-sm-6">PostalCode</dt>
+        <dd class="col-sm-6">@Model.PostalCode</dd>
+
+        <dt class="col-sm-3">Email</dt>
+        <dd class="col-sm-9">@Model.Email</dd>
+
+        <dt class="col-sm-3">Country</dt>
+        <dd class="col-sm-9">@Model.Country</dd>
+
+        <dt class="col-sm-3">City</dt>
+        <dd class="col-sm-9">@Model.City</dd>
+    </dl>
+    <div class="mt-4">
+        <form asp-action="Delete" method="post" asp-controller="Admin" onsubmit="return confirm('Are you sure you want to delete this user?');" style="display:inline;">
+            @Html.AntiForgeryToken()
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary">Back to Dashboard</a>
+    </div>
+</div>

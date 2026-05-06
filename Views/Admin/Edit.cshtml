@@ -1,0 +1,54 @@
+﻿@using Online_Art_Gallery.Models.Data
+@model AppUser
+
+<h2>Edit Profile</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>StreetAddress</label>
+        <input asp-for="StreetAddress" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>PostalCode</label>
+        <input asp-for="PostalCode" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Country</label>
+        <input asp-for="Country" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>City</label>
+        <input asp-for="City" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Profile Image</label>
+        <input type="file" name="profileImage" class="form-control" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.ProfileImage))
+    {
+        <div class="mb-3">
+            <img src="@Model.ProfileImage" width="100" height="100" class="rounded border" />
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Details" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

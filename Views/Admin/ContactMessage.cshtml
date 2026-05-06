@@ -1,0 +1,41 @@
+﻿@* @using Online_Art_Gallery.Models.Data
+@model ContactFormViewModel *@
+
+<table class="table">
+    <thead>
+        <tr>
+            @* <th>#</th> *@
+   @*          <th>Id</th> *@
+            <th>Name</th>
+            <th>Email</th>
+            <th>Website</th>
+            <th>Comment</th>
+            <th>SubmittedAt</th>
+            <th colspan="2"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var msg in Model)
+        {
+            <tr>
+                @* <td>@msg.Id</td> *@
+                <td>@msg.Name</td>
+                <td>@msg.Email</td>
+                <td>@msg.Website</td>
+                <td>@msg.Comment</td>
+                <td>@msg.SubmittedAt.ToString("dd MMM yyyy hh:mm tt")</td>
+                <td>
+                    <form asp-action="DeleteMessage" asp-controller="Admin" method="post" onsubmit="return confirm('Are you sure you want to delete this message?');">
+                        <input type="hidden" name="id" value="@msg.Mess_id" />
+                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}

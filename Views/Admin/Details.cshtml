@@ -1,0 +1,40 @@
+﻿
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Admin Profile Details</h2>
+
+    <div class="card mx-auto shadow p-4" style="max-width: 600px;">
+        <div class="text-center">
+            <img src="@Model.ProfileImage" alt="Profile Image" width="150" height="150" class="rounded-circle mb-3 border" />
+        </div>
+        <div class="text-center">
+
+            <dl class="row">
+                <dt class="col-sm-6">Name</dt>
+                <dd class="col-sm-6">@Model.Name</dd>
+
+
+                <dt class="col-sm-6">StreetAddress</dt>
+                <dd class="col-sm-6">@Model.StreetAddress</dd>
+
+
+                <dt class="col-sm-6">PostalCode</dt>
+                <dd class="col-sm-6">@Model.PostalCode</dd>
+
+                <dt class="col-sm-6">Email</dt>
+                <dd class="col-sm-6">@Model.Email</dd>
+
+                <dt class="col-sm-6">Country</dt>
+                <dd class="col-sm-6">@Model.Country</dd>
+
+                <dt class="col-sm-6">City</dt>
+                <dd class="col-sm-6">@Model.City</dd>
+            </dl>
+
+            <div class="text-center mt-4">
+                <a asp-action="Edit" class="btn btn-primary me-2">Edit</a>
+                <a asp-action="Index" class="btn btn-secondary">Back to Dashboard</a>
+            </div>
+        </div>
+    </div>
+</div>

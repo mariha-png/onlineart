@@ -1,0 +1,140 @@
+﻿@page
+@using Online_Art_Gallery.Areas.Identity.Pages.Account
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1 class="text-white text-center mb-4">@ViewData["Title"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data"
+              class="p-4 rounded shadow" style="background-color: #2c2f33;">
+            <h2 class="text-white mb-3">Create a New Account</h2>
+            <hr class="border-light mb-4" />
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.Name" class="form-label text-white">Full Name</label>
+                <input asp-for="Input.Name" class="form-control" />
+                <span asp-validation-for="Input.Name" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.StreetAddress" class="form-label text-white">Street Address</label>
+                <input asp-for="Input.StreetAddress" class="form-control" />
+                <span asp-validation-for="Input.StreetAddress" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.PostalCode" class="form-label text-white">Postal Code</label>
+                <input asp-for="Input.PostalCode" class="form-control" />
+                <span asp-validation-for="Input.PostalCode" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.Country" class="form-label text-white">Country</label>
+                <input asp-for="Input.Country" class="form-control" />
+                <span asp-validation-for="Input.Country" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.City" class="form-label text-white">City</label>
+                <input asp-for="Input.City" class="form-control" />
+                <span asp-validation-for="Input.City" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.Email" class="form-label text-white">Email</label>
+                <input asp-for="Input.Email" class="form-control" />
+                <span asp-validation-for="Input.Email" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.Password" class="form-label text-white">Password</label>
+                <input asp-for="Input.Password" class="form-control" />
+                <span asp-validation-for="Input.Password" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.ConfirmPassword" class="form-label text-white">Confirm Password</label>
+                <input asp-for="Input.ConfirmPassword" class="form-control" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Input.ProfileImage" class="form-label text-white">Profile Image</label>
+                <input asp-for="Input.ProfileImage" type="file" class="form-control" />
+                <span asp-validation-for="Input.ProfileImage" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="Input.Role" class="form-label text-white">Select Role</label>
+                <select class="form-control" asp-for="Input.Role" asp-items="@Model.Input.RoleList">
+                    <option disabled selected value="">---- Select Role ----</option>
+                </select>
+                <span asp-validation-for="Input.Role" class="text-danger small"></span>
+            </div>
+
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary rounded-pill py-2">Register</button>
+            <div class="mt-4 text-center">
+                <p>
+                    <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl" class="link-light text-decoration-underline">
+                        Have an Account
+                    </a>
+                </p>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <style>
+        body {
+            background-color: #1e1f22;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .form-control {
+            background-color: #3a3b3f;
+            border: 1px solid #555;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 0.6rem 1rem;
+        }
+
+            .form-control:focus {
+                background-color: #2b2c2f;
+                border-color: red;
+                box-shadow: 0 0 0 0.2rem black;
+                color: #fff;
+            }
+
+        .form-label,
+        label {
+            color: #f8f9fa;
+            font-weight: 500;
+        }
+
+        .text-danger {
+            color: #ff6b6b !important;
+        }
+
+        .btn-primary {
+            background-color: red;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: black;
+            }
+
+        .shadow {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+        }
+    </style>
+}

@@ -1,0 +1,53 @@
+﻿@model List<Online_Art_Gallery.Models.Data.UserOrder>
+
+@{
+    ViewData["Title"] = "All Orders"; // change if your layout is named differently
+}
+
+<h2 class="my-4">All Orders</h2>
+
+@if (Model != null && Model.Any())
+{
+    foreach (var order in Model)
+    {
+        <div class="card mb-4 shadow">
+            <div class="card-header bg-dark text-white">
+                <strong>Order #@order.Id</strong>
+            </div>
+            <div class="card-body">
+                <h5 class="text-primary">Customer Info</h5>
+                <p><strong>Name:</strong> @order.Name</p>
+                <p><strong>Phone:</strong> @order.Contact</p>
+                <p><strong>Address:</strong> @order.Address</p>
+
+                <hr />
+                <h5 class="text-success">Cart Items</h5>
+                <table class="table table-bordered">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Quantity</th>
+                            <th>Total Price (PKR)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in order.Items)
+                        {
+                            <tr>
+                                <td>@item.ProductName</td>
+                                <td>@item.Quantity</td>
+                                <td>@item.TotalPrice.ToString("0.00")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-warning">
+        No orders found.
+    </div>
+}

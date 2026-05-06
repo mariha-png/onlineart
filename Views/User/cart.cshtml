@@ -1,0 +1,310 @@
+@using Online_Art_Gallery.Models.Data
+@model List<CartItem>
+
+@{
+    ViewData["Title"] = "Your Cart";
+    decimal shipping = 300 * Model.Count;
+    decimal subtotal = Model.Sum(item => item.TotalPrice);
+    decimal grandTotal = subtotal + shipping;
+}
+<style>
+    /* Modal Styling */
+    .modal-content {
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    .modal-header {
+        border-bottom: none;
+        background-color: #f8f9fa;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .modal-title {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
+    .btn-close {
+        background-color: #ccc;
+        border-radius: 50%;
+        padding: 0.5rem;
+    }
+
+    .modal-body input,
+    .modal-body textarea {
+        border-radius: 10px;
+        border: 1px solid #ced4da;
+        transition: all 0.3s ease;
+    }
+
+        .modal-body input:focus,
+        .modal-body textarea:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+        }
+
+    .modal-footer {
+        border-top: none;
+        justify-content: center;
+        padding-bottom: 1.5rem;
+    }
+
+    .btn-primary {
+        padding: 0.5rem 2rem;
+        border-radius: 30px;
+        font-weight: 500;
+        background-color: #0d6efd;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-primary:hover {
+            background-color: #084298;
+        }
+    /* Card Styling */
+    #addressDisplay.card {
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+        background: #ffffff;
+    }
+
+    #addressDisplay .card-body {
+        padding: 1.5rem 2rem;
+    }
+
+    #addressDisplay h5 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #343a40;
+    }
+
+    #addressDisplay p {
+        margin-bottom: 0.75rem;
+        font-size: 1rem;
+        color: #495057;
+    }
+
+    #addressDisplay strong {
+        color: #0d6efd;
+        font-weight: 500;
+    }
+
+    #addressDisplay span {
+        color: #212529;
+    }
+</style>
+@if (Model == null || Model.Count == 0)
+{
+    <div class="alert alert-info mt-4 text-center">
+        <h4>Your cart is empty.</h4>
+        <a asp-controller="User" asp-action="Product" class="btn btn-primary mt-3">Browse Products</a>
+    </div>
+}
+else
+{
+    <!-- ?? Cart Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered text-center align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th style="width: 220px;">Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody id="cartBody">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr data-index="@i">
+                        <td><img src="@Model[i].ImageUrl" width="60" class="img-thumbnail" /></td>
+                        <td>@Model[i].Name</td>
+                        <td>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button class="btn btn-sm btn-outline-secondary me-1 qty-minus">?</button>
+                                <input type="number" class="form-control text-center qty-input" value="@Model[i].Quantity" min="1" style="width: 50px;" />
+                                <button class="btn btn-sm btn-outline-secondary ms-1 qty-plus">+</button>
+                                <button class="btn btn-sm btn-primary ms-2 update-btn">Update</button>
+                            </div>
+                        </td>
+                        <td class="price" data-price="@Model[i].Price">@Model[i].Price.ToString("N0") PKR</td>
+                        <td class="total">@Model[i].TotalPrice.ToString("N0") PKR</td>
+                        <td>
+                            <form asp-controller="User" asp-action="RemoveCartItem" method="post">
+                                <input type="hidden" name="index" value="@i" />
+                                <button type="submit" class="btn btn-sm btn-danger">
+                                    <i class="fa fa-trash"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- ?? Order Summary -->
+    <div class="card mt-4 shadow-sm">
+        <div class="card-body bg-light">
+            <h5 class="mb-3">Order Summary</h5>
+            <div class="d-flex justify-content-between mb-2">
+                <span>Subtotal</span>
+                <strong id="subtotal">@subtotal.ToString("N0") PKR</strong>
+            </div>
+            <div class="d-flex justify-content-between mb-2">
+                <span>Shipping</span>
+                <strong id="shipping">@shipping.ToString("N0") PKR</strong>
+            </div>
+            <hr />
+            <div class="d-flex justify-content-between">
+                <span class="fw-bold">Grand Total</span>
+                <strong class="text-primary" id="grandtotal">@grandTotal.ToString("N0") PKR</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- ?? Add Address Button -->
+    <div class="text-end mt-4" id="addressBtnWrapper">
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addressModal">Add Address</button>
+    </div>
+
+    <!-- ?? Address Modal -->
+    <div class="modal fade" id="addressModal" tabindex="-1" aria-labelledby="addressModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <form id="addressForm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color:black" id="addressModalLabel">Enter Shipping Info</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body px-4">
+                        <input type="text" id="userName" placeholder="Full Name" class="form-control mb-3" required />
+                        <input type="text" id="userPhone" placeholder="Phone Number" class="form-control mb-3" required />
+                        <textarea id="userAddress" class="form-control mb-3" placeholder="Shipping Address" rows="3" required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Save Address</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- ?? Display Address -->
+    <div class="card mt-4" id="addressDisplay" style="display:none;">
+        <div class="card-body">
+            <h5 class="text-dark">Shipping Info</h5>
+            <p><strong>Name:</strong> <span id="displayName"></span></p>
+            <p><strong>Phone:</strong> <span id="displayPhone"></span></p>
+            <p><strong>Address:</strong> <span id="displayAddress"></span></p>
+        </div>
+    </div>
+    <!-- ? Place Order -->
+    <div class="text-end mt-3" id="placeOrderWrapper" style="display:none;">
+        <form method="post" asp-controller="User" asp-action="PlaceOrder">
+            <input type="hidden" name="Name" id="hiddenName" />
+            <input type="hidden" name="Phone" id="hiddenPhone" />
+            <input type="hidden" name="Address" id="hiddenAddress" />
+            <button type="submit" class="btn btn-primary">Place Order</button>
+        </form>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        // Save address modal submission
+        document.getElementById("addressForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById("userName").value.trim();
+            const phone = document.getElementById("userPhone").value.trim();
+            const address = document.getElementById("userAddress").value.trim();
+
+            // Set values in hidden form
+            document.getElementById("hiddenName").value = name;
+            document.getElementById("hiddenPhone").value = phone;
+            document.getElementById("hiddenAddress").value = address;
+
+            // Show display section
+            document.getElementById("displayName").textContent = name;
+            document.getElementById("displayPhone").textContent = phone;
+            document.getElementById("displayAddress").textContent = address;
+
+            // Toggle display
+            document.getElementById("addressDisplay").style.display = "block";
+            document.getElementById("placeOrderWrapper").style.display = "block";
+            document.getElementById("addressBtnWrapper").style.display = "none";
+
+            // Close modal
+            bootstrap.Modal.getInstance(document.getElementById('addressModal')).hide();
+        });
+
+        // Quantity controls
+        document.querySelectorAll(".qty-plus").forEach(btn =>
+            btn.addEventListener("click", () => adjustQty(btn, 1))
+        );
+        document.querySelectorAll(".qty-minus").forEach(btn =>
+            btn.addEventListener("click", () => adjustQty(btn, -1))
+        );
+
+        function adjustQty(button, change) {
+            const row = button.closest("tr");
+            const input = row.querySelector(".qty-input");
+            let qty = parseInt(input.value) + change;
+            if (qty < 1) qty = 1;
+            input.value = qty;
+            updateRowTotal(row);
+        }
+
+        function updateRowTotal(row) {
+            const price = parseFloat(row.querySelector(".price").dataset.price);
+            const qty = parseInt(row.querySelector(".qty-input").value);
+            const total = price * qty;
+            row.querySelector(".total").textContent = total.toLocaleString() + " PKR";
+            updateCartSummary();
+        }
+
+        document.querySelectorAll(".update-btn").forEach(btn => {
+            btn.addEventListener("click", function () {
+                const row = this.closest("tr");
+                const index = row.dataset.index;
+                const qty = parseInt(row.querySelector(".qty-input").value);
+
+                fetch('/User/UpdateCartQuantity', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ index: parseInt(index), quantity: qty })
+                }).then(() => updateRowTotal(row));
+            });
+        });
+
+        function updateCartSummary() {
+            let subtotal = 0;
+            let itemCount = 0;
+
+            document.querySelectorAll("tbody tr").forEach(row => {
+                const totalCell = row.querySelector(".total");
+                if (totalCell) {
+                    const price = parseFloat(totalCell.textContent.replace(/[^\d.-]/g, ''));
+                    subtotal += price;
+                    itemCount++;
+                }
+            });
+
+            const shipping = 300 * itemCount;
+            const grandTotal = subtotal + shipping;
+
+            document.getElementById("subtotal").textContent = subtotal.toLocaleString() + " PKR";
+            document.getElementById("shipping").textContent = shipping.toLocaleString() + " PKR";
+            document.getElementById("grandtotal").textContent = grandTotal.toLocaleString() + " PKR";
+        }
+
+        updateCartSummary();
+    </script>
+}

@@ -1,0 +1,693 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Online Art Gallery.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Online Art Gallery.hi4ufq9ujz.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\cart.css",
+      "PackagePath": "staticwebassets\\css\\cart.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\checkout.css",
+      "PackagePath": "staticwebassets\\css\\checkout.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\global.css",
+      "PackagePath": "staticwebassets\\css\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\product.css",
+      "PackagePath": "staticwebassets\\css\\product.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\fonts\\OpenSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\OpenSans-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\images\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\images\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\14.jpg",
+      "PackagePath": "staticwebassets\\img\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\15.jpg",
+      "PackagePath": "staticwebassets\\img\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\16.jpg",
+      "PackagePath": "staticwebassets\\img\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\17.jpg",
+      "PackagePath": "staticwebassets\\img\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\18.jpg",
+      "PackagePath": "staticwebassets\\img\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\19.jpg",
+      "PackagePath": "staticwebassets\\img\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\20.jpg",
+      "PackagePath": "staticwebassets\\img\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\21.jpg",
+      "PackagePath": "staticwebassets\\img\\21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\22.jpg",
+      "PackagePath": "staticwebassets\\img\\22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\23.jpg",
+      "PackagePath": "staticwebassets\\img\\23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\24.jpg",
+      "PackagePath": "staticwebassets\\img\\24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\25.jpg",
+      "PackagePath": "staticwebassets\\img\\25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\26.jpg",
+      "PackagePath": "staticwebassets\\img\\26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\27.jpg",
+      "PackagePath": "staticwebassets\\img\\27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\28.jpg",
+      "PackagePath": "staticwebassets\\img\\28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\29.jpg",
+      "PackagePath": "staticwebassets\\img\\29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\30.jpg",
+      "PackagePath": "staticwebassets\\img\\30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\31.jpg",
+      "PackagePath": "staticwebassets\\img\\31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\32.jpg",
+      "PackagePath": "staticwebassets\\img\\32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\33.jpg",
+      "PackagePath": "staticwebassets\\img\\33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\34.jpg",
+      "PackagePath": "staticwebassets\\img\\34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\35.jpg",
+      "PackagePath": "staticwebassets\\img\\35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\36.jpg",
+      "PackagePath": "staticwebassets\\img\\36.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\37.jpg",
+      "PackagePath": "staticwebassets\\img\\37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\38.jpg",
+      "PackagePath": "staticwebassets\\img\\38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\39.jpg",
+      "PackagePath": "staticwebassets\\img\\39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\40.jpg",
+      "PackagePath": "staticwebassets\\img\\40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\41.jpg",
+      "PackagePath": "staticwebassets\\img\\41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\42.jpg",
+      "PackagePath": "staticwebassets\\img\\42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\43.jpg",
+      "PackagePath": "staticwebassets\\img\\43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\44.jpg",
+      "PackagePath": "staticwebassets\\img\\44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\45.jpg",
+      "PackagePath": "staticwebassets\\img\\45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\46.jpg",
+      "PackagePath": "staticwebassets\\img\\46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\47.jpg",
+      "PackagePath": "staticwebassets\\img\\47.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\48.jpg",
+      "PackagePath": "staticwebassets\\img\\48.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\49.jpg",
+      "PackagePath": "staticwebassets\\img\\49.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\50.jpg",
+      "PackagePath": "staticwebassets\\img\\50.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\51.jpg",
+      "PackagePath": "staticwebassets\\img\\51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\52.jpg",
+      "PackagePath": "staticwebassets\\img\\52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\53.jpg",
+      "PackagePath": "staticwebassets\\img\\53.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\54.jpg",
+      "PackagePath": "staticwebassets\\img\\54.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\img\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\6d09a787-2100-4c39-a072-515c001363b6_download (2).jfif",
+      "PackagePath": "staticwebassets\\uploads\\6d09a787-2100-4c39-a072-515c001363b6_download (2).jfif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\7485df0d-d84f-4157-821c-52930ca06bdd_humanicon.png",
+      "PackagePath": "staticwebassets\\uploads\\7485df0d-d84f-4157-821c-52930ca06bdd_humanicon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\7a8c9028-26eb-4887-961e-69ccf4e6b60b_OIP.webp",
+      "PackagePath": "staticwebassets\\uploads\\7a8c9028-26eb-4887-961e-69ccf4e6b60b_OIP.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\a0ad2005-8238-41eb-8120-a1382d450986_OIP.webp",
+      "PackagePath": "staticwebassets\\uploads\\a0ad2005-8238-41eb-8120-a1382d450986_OIP.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\c3c32864-df45-4150-bef8-fab9b74782f5_download (2).jfif",
+      "PackagePath": "staticwebassets\\uploads\\c3c32864-df45-4150-bef8-fab9b74782f5_download (2).jfif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\d3c5d422-ecc9-481c-a457-210e98b1bfba_download (2).jfif",
+      "PackagePath": "staticwebassets\\uploads\\d3c5d422-ecc9-481c-a457-210e98b1bfba_download (2).jfif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\d9ca632a-11f0-4dc1-9fbd-c3d16e92a3ca_download (2).jfif",
+      "PackagePath": "staticwebassets\\uploads\\d9ca632a-11f0-4dc1-9fbd-c3d16e92a3ca_download (2).jfif"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\Online Art Gallery(Final)\\Online Art Gallery\\wwwroot\\uploads\\f8a2cf6a-0cbb-42f2-8eda-4bff85d60584_download (2).jfif",
+      "PackagePath": "staticwebassets\\uploads\\f8a2cf6a-0cbb-42f2-8eda-4bff85d60584_download (2).jfif"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Online Art Gallery.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Online Art Gallery.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Online Art Gallery.props",
+      "PackagePath": "build\\Online Art Gallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Online Art Gallery.props",
+      "PackagePath": "buildMultiTargeting\\Online Art Gallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Online Art Gallery.props",
+      "PackagePath": "buildTransitive\\Online Art Gallery.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

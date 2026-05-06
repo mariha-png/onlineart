@@ -1,0 +1,96 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Log in";
+}
+
+<h1 class="text-white text-center mb-4">@ViewData["Title"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <section class="p-4 rounded shadow" style="background-color: #2c2f33;">
+            <form id="account" method="post">
+                <h2 class="text-white mb-3">Login to Your Account</h2>
+                <hr class="border-light" />
+
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3" role="alert"></div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Email" class="form-label text-white">Email</label>
+                    <input asp-for="Input.Email" class="form-control" autocomplete="username" />
+                    <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="Input.Password" class="form-label text-white">Password</label>
+                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" />
+                    <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                </div>
+
+                <div class="form-check mb-4">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    <label asp-for="Input.RememberMe" class="form-check-label text-white">
+                        @Html.DisplayNameFor(m => m.Input.RememberMe)
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 rounded-pill py-2">Log In</button>
+
+                <div class="mt-4 text-center">
+                    <p>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl" class="link-light text-decoration-underline">
+                            Register as a new user
+                        </a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <style>
+        body {
+            background-color: #1e1f22;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .form-control {
+            background-color: #3a3b3f;
+            border: 1px solid #555;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 0.6rem 1rem;
+        }
+
+            .form-control:focus {
+                background-color: #2b2c2f;
+                border-color: red;
+                box-shadow: 0 0 0 0.2rem black;
+                color: #fff;
+            }
+
+        .text-danger {
+            color: #ff6b6b !important;
+        }
+
+        .btn-primary {
+            background-color: red;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-primary:hover {
+                background-color: black;
+            }
+
+        .shadow {
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+        }
+
+        a.link-light:hover {
+            color: #66b2ff;
+        }
+    </style>
+}

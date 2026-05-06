@@ -1,0 +1,28 @@
+﻿@using Online_Art_Gallery.Models.Data
+@model OrderSummaryViewModel
+
+<h3>Order Received</h3>
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Phone:</strong> @Model.Phone</p>
+<p><strong>Address:</strong> @Model.Address</p>
+
+<table class="table mt-4">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Qty</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CartItems)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.TotalPrice.ToString("0.00") PKR</td>
+               
+            </tr>
+        }
+    </tbody>
+</table>
